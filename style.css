@@ -76,15 +76,19 @@ nav .menu ul {
     padding: 0 30px;
 }
 
+header {
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left center;
+}
+
 .banner {
     padding-left: 220px;
     padding-right: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
+   
 }
 
 .banner .content {
@@ -218,4 +222,16 @@ footer .culome-one {
 
 footer .culome-two {
     width: 100%;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+footer .social img {
+    margin-right: 15px;
+}
+
+footer input[type="submit"] {
+    width: auto;
 }
